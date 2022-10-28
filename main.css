@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+.calculator {
+  max-width: 350px;
+  margin-top: 30px;
+  margin-left: 30px;
+  color: black;
+}
+
+h1 {
+  font-family: Hannotate TC;
+  text-align: center;
+}
+
+.cal {
+  max-width: 350px;
+}
+
+.table {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  padding-bottom: 2px;
+  margin: auto;
+}
+
+.clear {
+  background-color: orange;
+}
+
+.clear:hover {
+  opacity: 0.75;
+}
+
+input {
+  width: 75%;
+  height: 90%;
+  text-align: right;
+  margin-left: 2px;
+}
+
+button {
+  width: 25%;
+  height: 100%;
+  border-radius: 10px;
+  margin-left: 2px;
+}
+
+.top {
+  margin-bottom: 3px;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}

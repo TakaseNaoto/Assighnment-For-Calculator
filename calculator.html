@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>電卓</title>
+    <link rel='stylesheet' type='text/css' href='main.css'>
+  </head>
+  
+  <body>
+    <div class="calculator">
+      <h1>でんた君</h1>
+      <div class="cal">
+        <div class="table top">
+         <input id="result" type="text" value="0">
+         <button class="clear" onclick="c_click()">C</button>
+        </div>
+      
+        <div class="table">
+         <button onclick="num_click(this.innerHTML)">7</button>
+         <button onclick="num_click(this.innerHTML)">8</button>
+         <button onclick="num_click(this.innerHTML)">9</button>
+         <button onclick="ope_click(this.innerHTML)">÷</button>
+        </div>
+      
+        <div class="table">
+         <button onclick="num_click(this.innerHTML)">4</button>
+         <button onclick="num_click(this.innerHTML)">5</button>
+         <button onclick="num_click(this.innerHTML)">6</button>
+         <button onclick="ope_click(this.innerHTML)">×</button>
+        </div>
+      
+        <div class=table>
+         <button onclick="num_click(this.innerHTML)">1</button>
+         <button onclick="num_click(this.innerHTML)">2</button>
+         <button onclick="num_click(this.innerHTML)">3</button>
+         <button class="blue" onclick="ope_click(this.innerHTML)">-</button>
+        </div>
+      
+        <div class="table">
+         <button class="yellow" onclick="num_click(this.innerHTML)">0</button>
+         <button onclick="num_click(this.innerHTML)">.</button>
+         <button onclick="equal_click()">=</button>
+         <button class="red" onclick="ope_click(this.innerHTML)">+</button>
+        </div>
+      
+      </div>
+    </div>
+    
+    <script src="/Users/takasenaoto/Downloads/jquery-3.6.1.min.js"></script>
+    <script src='main.js'></script>
+  </body>
+  
+</html>
